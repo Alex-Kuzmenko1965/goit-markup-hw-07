@@ -1,24 +1,24 @@
 .customers {
   margin: 0 0;
   padding: 94px 15px;
-}
 
-.customers-list {
+
+&__list {
   display: flex;
   justify-content: center;
   justify-items: center;
 }
 
-.customers-item {
+&__item {
   width: 170px;
   height: 92px;
 }
 
-.customers-item:not( :last-child) {
+&__item:not( :last-child) {
   margin-right: 30px;
 }
 
-.customers-link {
+&__link {
   width: 100%;
   height: 100%;
   display: flex;
@@ -30,14 +30,16 @@
   border-radius: 4px;
 }
 
-.customers-link:hover,
-.customers-link:focus {
+
+&__link:hover,
+&__link:focus {
   border-color: var(--accent-color);
   color: var(--accent-color);
 }
 
-.customers-icon {
+&__icon {
   fill: currentColor;
 
   transition: color 250ms var(--timing-function);
+}
 }

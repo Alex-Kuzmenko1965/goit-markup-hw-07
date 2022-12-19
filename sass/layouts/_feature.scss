@@ -1,18 +1,18 @@
-.feature-list {
+.feature {
+  margin-top: 0;
+  padding: 94px 15px;
+
+
+&__list {
   display: flex;
 
 }
 
-.feature-list .item+.item {
+&__list &__item+&__item {
   margin-left: 30px;
 }
 
-.feature {
-  margin-top: 0;
-  padding: 94px 15px;
-}
-
-.feature-icon {
+&__icon {
   display: flex;
   height: 120px;
   background-color: var(--grey-color);
@@ -23,7 +23,7 @@
 
 }
 
-.feature-title {
+&__title {
   margin-bottom: 10px;
 
   font-size: 14px;
@@ -33,10 +33,11 @@
   color: var(--primary-text-color);
 }
 
-.feature-text {
+&__text {
   max-width: 270px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secandary-text-color);
+}
 }
