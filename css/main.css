@@ -400,8 +400,6 @@ form .footer__mailing + .footer__mailing {
   fill: var(--title-text-color);
 }
 
-/*---HEADER---*/
-/*---MAIN---*/
 .hero {
   max-width: 1600px;
   background-image: url("../images/img-fon.jpg");
@@ -411,7 +409,7 @@ form .footer__mailing + .footer__mailing {
   margin: 0 auto;
 }
 
-.container-hero {
+.hero-container {
   background-color: rgba(47, 48, 58, 0.4);
   margin: 0 auto;
   padding: 200px 0;
@@ -430,7 +428,6 @@ form .footer__mailing + .footer__mailing {
   color: var(--light-color);
 }
 
-/*---MODAL---*/
 .backdrop {
   position: fixed;
   top: 0;
@@ -685,7 +682,6 @@ form .footer__mailing + .footer__mailing {
   color: var(--title-text-color);
 }
 
-/*---FEATURE---*/
 .feature-list {
   display: flex;
 }
@@ -726,7 +722,6 @@ form .footer__mailing + .footer__mailing {
   color: var(--secandary-text-color);
 }
 
-/*---DIRECT---*/
 .direct {
   margin-top: 0;
   padding-top: 0;
@@ -767,7 +762,6 @@ form .footer__mailing + .footer__mailing {
   color: var(--light-color);
 }
 
-/*---TEAM---*/
 .team {
   margin: 0 0;
   padding: 94px 15px;
@@ -904,7 +898,6 @@ img {
   transition: color 250ms var(--timing-function);
 }
 
-/*---PORTFOLIO---*/
 .portfolio {
   padding: 94px 15px 64px;
 }
@@ -1025,6 +1018,4 @@ img {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--secandary-text-color);
-}
-
-/*---FOOtER---*//*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
